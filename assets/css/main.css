@@ -3687,3 +3687,7 @@ input, select, textarea {
 			}
 
 	}
+	
+.fab:before {
+	font-family: 'Font Awesome 5 Brands' !important;
+}
