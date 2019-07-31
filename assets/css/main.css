@@ -2399,8 +2399,12 @@ input, select, textarea {
 			width: 12.5rem;
 		}
 
-		.panel .span-1-5 {
+		.panel .span-1-5:-o-prefocus {
 			width: 14.99rem;
+		}
+		
+		.panel .span-1-5:-o-prefocus {
+			width: 15rem;
 		}
 
 		.panel .span-1-75 {
@@ -2424,9 +2428,11 @@ input, select, textarea {
 		}
 
 		.panel .span-3 {
+			width: 30rem;
+		}
+		.panel .span-3:-o-prefocus {
 			width: 29.99rem;
 		}
-
 		.panel .span-3-25 {
 			width: 32.5rem;
 		}
