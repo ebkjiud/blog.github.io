@@ -1269,6 +1269,7 @@ input, select, textarea {
 
 		ul.grid-icons.two {
 			width: 14rem;
+			padding-top: 40px;
 		}
 
 			ul.grid-icons.two > li:nth-child(-n + 2) {
