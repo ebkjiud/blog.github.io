@@ -28,6 +28,12 @@ section, summary, time, mark, audio, video {
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
+	
+	@media screen and (max-width: 736px) {
+		ul.deletethis {
+			display:none !important;
+		}
+			}
 
 body {
 	line-height: 1;
@@ -3693,3 +3699,4 @@ input, select, textarea {
 .fab:before {
 	font-family: 'Font Awesome 5 Brands' !important;
 }
+
