@@ -31,7 +31,7 @@ footer, header, hgroup, menu, nav, section {
 	
 	@media screen and (max-width: 736px) {
 		ul.deletethis {
-			display:none !important;
+			/*display:none !important;*/
 		}
 			}
 
