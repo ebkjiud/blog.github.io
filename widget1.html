@@ -6,19 +6,13 @@
     <!-- Load the Twitch embed script -->
     <script src="https://embed.twitch.tv/embed/v1.js"></script>
 
-    <!--
-      Create a Twitch.Embed object that will render
-      within the "twitch-embed" root element.
-    -->
     <script type="text/javascript">
       var embed = new Twitch.Embed("twitch-embed", {
         width: 854,
         height: 480,
         channel: "mrebkjiud",
-        layout: "channel",
+        layout: "video",
         autoplay: false,
-        // only needed if your site is also embedded on embed.example.com and othersite.example.com 
-        parent: ["embed.example.com", "othersite.example.com"]
       });
 
       embed.addEventListener(Twitch.Embed.VIDEO_READY, () => {
@@ -26,5 +20,7 @@
         player.play();
       });
     </script>
+    <iframe src="https://www.donationalerts.com/widget/instream-stats?id=1039647&token=Z7rJj7JDn3uP1A5aAae7" width="468" height="60" align="left">
+ </iframe>
   </body>
 </html>
